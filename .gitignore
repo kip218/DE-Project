@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Mac stuff
+.DS_Store
+
+# Env stuff
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
