@@ -11,8 +11,5 @@ url = 'https://drive.google.com/uc?id=1IjIEhLc9n8eLKeY-yh_YigKVWbhgGBsN'
 
 FILE_IDS = get_file_ids()
 
-# for data in files_data:
-# 	print(data[0], data[1])
-
 db = get_csv_file_to_duckdb(FILE_IDS['2024'])
 print(db)
